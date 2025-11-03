@@ -9,13 +9,13 @@ import Registration from '@/app/models/user.models';
 //   }
 // }
 
-import { connectToDatabase } from '@/lib/db';
+// import { connectToDatabase } from '@/lib/db';
 // Connect to MongoDB
-await connectToDatabase();
+// await connectToDatabase();
 
 export async function GET(request: NextRequest) {
   try {
-    await connectToDatabase();
+    // await connectToDatabase();
 
     const { searchParams } = new URL(request.url);
     const search = searchParams.get('search') || '';

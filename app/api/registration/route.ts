@@ -179,12 +179,12 @@
 // 
 
 import { NextResponse } from 'next/server';
-import { connectToDatabase } from '@/lib/db';
+// import { connectToDatabase } from '@/lib/db';
 import Registration from '@/app/models/user.models';
-import sendConfirmationEmail from '@/lib/emailserver';
+// import sendConfirmationEmail from '@/lib/emailserver';
 
 // Connect to MongoDB
-await connectToDatabase();
+// await connectToDatabase();
 
 type TeamMember = {
   name: string;
@@ -277,18 +277,18 @@ export async function POST(request: Request) {
     const savedRegistrations = await Promise.all(registrationPromises);
 console.log("calle..ed this here;;;;")
     // Send confirmation email
-    try {
-      await sendConfirmationEmail(
-        email,
-        `${firstName} ${lastName}`,
-        events,
-        teamMembers,
-        specialRequirements
-      );
-    } catch (emailError) {
-      console.error('Email sending failed:', emailError);
-      // Continue with success response even if email fails
-    }
+    // try {
+    //   await sendConfirmationEmail(
+    //     email,
+    //     `${firstName} ${lastName}`,
+    //     events,
+    //     teamMembers,
+    //     specialRequirements
+    //   );
+    // } catch (emailError) {
+    //   console.error('Email sending failed:', emailError);
+    //   // Continue with success response even if email fails
+    // }
 
     return NextResponse.json(
       {
