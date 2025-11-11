@@ -516,32 +516,13 @@ export const eventsByDay = {
         special: false,
       },
       {
-        id: "gamex-bgmi",
-        title: "GameX - BGMI Tournament",
-        description:
-          "Battle royale gaming tournament featuring BGMI (Battlegrounds Mobile India) with intense squad-based combat and strategic gameplay.",
-        time: "8:00 AM - 8:00 PM",
-        participants: "Teams of 4 Players",
-        prize: "₹1,00,000",
-        difficulty: "Intermediate",
-        location: "D8 Open Area",
-        highlights: [
-          "Squad-based battle royale",
-          "Multiple elimination rounds",
-          "Strategic gameplay",
-          "Mobile gaming tournament",
-        ],
-        image: "/competition/gamebg.png",
-        special: false,
-      },
-      {
         id: "gamex-valorant",
         title: "GameX - Valorant Tournament",
         description:
           "Tactical first-person shooter tournament featuring Valorant with team-based strategic combat and agent-based gameplay.",
         time: "8:00 AM - 8:00 PM",
         participants: "Teams of 5 Players",
-        prize: "Gaming Rewards & Trophies",
+        prize: "₹1,00,000",
         difficulty: "Intermediate",
         location: "D8 Open Area",
         highlights: [
