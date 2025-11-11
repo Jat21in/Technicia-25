@@ -209,7 +209,7 @@ export const eventsByDay = {
           "An interstellar-themed treasure hunt combining logic puzzles, cryptography, and tech decoding across multiple floors in a race to the final code.",
         time: "1:30 PM onwards",
         participants: "Teams of 3–4",
-        prize: "₹5,000",
+        prize: "₹30,000",
         difficulty: "Intermediate",
         location: "D1 Stairs",
         highlights: [
@@ -228,7 +228,7 @@ export const eventsByDay = {
           "First day of an intellectually stimulating forum where delegates represent countries and debate global issues through diplomacy, negotiation, and collaboration.",
         time: "1:30 PM - 6:30 PM",
         participants: "100+ Delegates (Open to All Streams)",
-        prize: "₹40,000 Total Cash Pool + Best Delegate Awards",
+        prize: "₹1,50,000",
         difficulty: "Intermediate",
         location: "B4 TBI Lab, B4 AI Lab, B4, B5, A1, A3, D8 Seminar Halls, Classroom-B5",
         highlights: [
@@ -247,7 +247,7 @@ export const eventsByDay = {
           "Unleash your creativity and tell a compelling story through the art of filmmaking over 3 days.",
         time: "All Day (3-day event)",
         participants: "Individual/Teams",
-        prize: "₹20,000",
+        prize: "₹30,000",
         difficulty: "Intermediate",
         location: "Open Theatre - DACA",
         highlights: [
@@ -351,7 +351,7 @@ export const eventsByDay = {
           "A themed CSR competition where student teams act as intergalactic CSR leaders solving crises on fictional planets with sustainable solutions.",
         time: "10:00 AM - 4:00 PM",
         participants: "Teams of 3",
-        prize: "₹18,000",
+        prize: "Certificates",
         difficulty: "Intermediate",
         location: "D7 Seminar Hall",
         highlights: [
@@ -370,7 +370,7 @@ export const eventsByDay = {
           "A cybersecurity CTF with challenges across web, crypto, reverse engineering, and forensics. Defend Earth from alien hackers!",
         time: "9:30 AM - 7:00 PM",
         participants: "Teams of 2–4",
-        prize: "₹25,000",
+        prize: "₹50,000",
         difficulty: "Advanced",
         location: "D1 Seminar Hall",
         highlights: [
@@ -389,7 +389,7 @@ export const eventsByDay = {
           "Second day of the intellectually stimulating forum where delegates represent countries and debate global issues through diplomacy, negotiation, and collaboration.",
         time: "9:00 AM - 4:30 PM",
         participants: "100+ Delegates (Open to All Streams)",
-        prize: "₹40,000 Total Cash Pool + Best Delegate Awards",
+        prize: "₹1,50,000",
         difficulty: "Intermediate",
         location: "B4 TBI Lab, B4 AI Lab, B4, B5, A1, A3, D8 Seminar Halls, Classroom-B5",
         highlights: [
@@ -401,25 +401,25 @@ export const eventsByDay = {
         image: "/competition/cumun.png",
         special: true,
       },
-      {
-        id: "startup-expo",
-        title: "Startup Expo [Company]",
-        description:
-          "A career-focused expo where leading companies, startups, and CSR partners showcase innovation, offer internships, and engage directly with students.",
-        time: "All Day",
-        participants: "Open to All",
-        prize: "Networking, Internship Offers, CSR Collaboration",
-        difficulty: "All Levels",
-        location: "Exhibition Area",
-        highlights: [
-          "Live product demos",
-          "Company stalls & networking",
-          "CSR project mentoring",
-          "Panel talks & awards",
-        ],
-        image: "/competition/company.png",
-        special: false,
-      },
+      // {
+      //   id: "startup-expo",
+      //   title: "Startup Expo [Company]",
+      //   description:
+      //     "A career-focused expo where leading companies, startups, and CSR partners showcase innovation, offer internships, and engage directly with students.",
+      //   time: "All Day",
+      //   participants: "Open to All",
+      //   prize: "Networking, Internship Offers, CSR Collaboration",
+      //   difficulty: "All Levels",
+      //   location: "Exhibition Area",
+      //   highlights: [
+      //     "Live product demos",
+      //     "Company stalls & networking",
+      //     "CSR project mentoring",
+      //     "Panel talks & awards",
+      //   ],
+      //   image: "/competition/company.png",
+      //   special: false,
+      // },
       {
         id: "panel-discussion-a",
         title: "Panel Discussion - A",
@@ -439,25 +439,25 @@ export const eventsByDay = {
         image: "/competition/panel.png",
         special: false,
       },
-      {
-        id: "rc-car-race",
-        title: "RC Car Race",
-        description:
-          "Showcase your remote-controlled car driving skills on a challenging obstacle course.",
-        time: "10:30 AM - 2:00 PM",
-        participants: "Individual",
-        prize: "₹15,000",
-        difficulty: "Intermediate",
-        location: "D1 to D8 Area",
-        highlights: [
-          "Precision driving",
-          "Speed trials",
-          "Custom car builds",
-          "Agility challenges",
-        ],
-        image: "/competition/rc.png",
-        special: false,
-      },
+      // {
+      //   id: "rc-car-race",
+      //   title: "RC Car Race",
+      //   description:
+      //     "Showcase your remote-controlled car driving skills on a challenging obstacle course.",
+      //   time: "10:30 AM - 2:00 PM",
+      //   participants: "Individual",
+      //   prize: "₹15,000",
+      //   difficulty: "Intermediate",
+      //   location: "D1 to D8 Area",
+      //   highlights: [
+      //     "Precision driving",
+      //     "Speed trials",
+      //     "Custom car builds",
+      //     "Agility challenges",
+      //   ],
+      //   image: "/competition/rc.png",
+      //   special: false,
+      // },
       {
         id: "drone-race",
         title: "Drone Race",
@@ -465,7 +465,7 @@ export const eventsByDay = {
           "High-speed drone racing competition testing piloting skills and drone technology.",
         time: "6:00 PM - 8:30 PM",
         participants: "Individual",
-        prize: "₹25,000",
+        prize: "Certificate",
         difficulty: "Advanced",
         location: "C1 Main Ground",
         highlights: [
@@ -522,7 +522,7 @@ export const eventsByDay = {
           "Battle royale gaming tournament featuring BGMI (Battlegrounds Mobile India) with intense squad-based combat and strategic gameplay.",
         time: "8:00 AM - 8:00 PM",
         participants: "Teams of 4 Players",
-        prize: "Gaming Rewards & Trophies",
+        prize: "₹1,00,000",
         difficulty: "Intermediate",
         location: "D8 Open Area",
         highlights: [
